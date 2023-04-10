@@ -2,7 +2,6 @@ import React from "react"
 import Die from "./Die"
 import {nanoid} from "nanoid"
 import "./App.css"
-import { FiChevronsRight } from "react-icons/fi"
 import Confetti from "react-confetti"
 
 
