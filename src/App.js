@@ -3,6 +3,7 @@ import Die from "./Die"
 import {nanoid} from "nanoid"
 import "./App.css"
 import Confetti from "react-confetti"
+import { FiChevronsRight } from "react-icons"
 
 
 export default function App() {
