@@ -1,0 +1,100 @@
+* {
+  
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: url(../public/xavi-cabrera-kn-UmDZQDjM-unsplash\ \(1\).jpg) no-repeat center center;
+  padding: 20px;
+  font-family: 'Karla', sans-serif;
+}
+
+main {
+  background-color: #c99c9c; 
+  border-radius: 10px;
+  box-shadow: 10px 20px 12px -13px rgba(12, 1, 1, 0.75);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.instructions {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  font-weight: 400;
+  text-align: center;
+  padding: 20px 50px;
+}
+
+.dice-container {
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.die-face {
+  height: 70px;
+  width: 70px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 20px 10px 20px -13px rgba(65, 34, 34, 0.75);
+}
+
+.die-num {
+  font-size: 2rem;
+}
+
+.roll-dice {
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 6px;
+  background-color: #8a4848;
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'Karla', sans-serif;
+  cursor: pointer;
+  margin: 20px;
+  box-shadow: #552121 2px 2px;
+}
+
+.roll-dice:focus {
+  outline: none;
+}
+
+.roll-dice:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width: 780px) {
+  .dice-container {
+    padding: 20px 0px;
+  }
+
+  .die-face {
+    height: 50px;
+    width: 50px;
+  }
+
+  .instructions {
+    font-weight: 400;
+    font-size: 14px;
+    width: 300px;
+    padding: 20px;
+  }
+}
