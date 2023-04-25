@@ -7,10 +7,11 @@ body {
   display:flex;
   justify-content: center;
   align-items: center;
+  gap: 20px;
   margin: 0;
-  background: url(../public/xavi-cabrera-kn-UmDZQDjM-unsplash\ \(1\).jpg) no-repeat center center;
-  padding: 20px;
+  background: #303841;
   font-family: 'Karla', sans-serif;
+  height: 100vh;
 }
 
 main {
@@ -35,7 +36,9 @@ main {
   text-align: center;
   padding: 20px 50px;
 }
-
+p {
+  padding: 5px 0px;
+}
 .dice-container {
   display: grid;
   grid-template: auto auto / repeat(5, 1fr);
